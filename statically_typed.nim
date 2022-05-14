@@ -1,4 +1,4 @@
-# statically_type.nim
+# statically_typed.nim
 
 let
     a: int32= 42
