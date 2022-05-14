@@ -10,7 +10,7 @@ proc positiveOrNegative(num: int): string =
             "zero"
         of 1..high(int):
             "positive"
-        else:
+        else: # unreachable else
             "invalid"
 
 echo positiveOrNegative(0)
