@@ -1,21 +1,17 @@
-# functions_ufcs
-# 
-# functions - ufcs - Uniform Function Call Syntax
-# https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax
-# "UFCS are particularly useful when function calls are chained"
+# functions_overloading
+#
+# function: overloading
 
+proc positiveOrNegative(num:float): string =
+    if num == 0: return "zero"
+    if num < 0: return "negative"
+    if num > 0: return "positive"
 
 proc positiveOrNegative(num: int): string =
-    case num:
-        of low(int).. -1:
-            "negative"
-        of 0:
-            "zero"
-        of 1..high(int):
-            "positive"
+if num == 0: return "zero"
+if num < 0: return "negative"
+    if num > 0: return "positive"
 
-let x = 1
 
-echo positiveOrNegative(1)
-echo x.positiveOrNegative()
-echo x.positiveOrNegative
+echo positiveOrNegative 3.14
+echo positiveOrNegative 3

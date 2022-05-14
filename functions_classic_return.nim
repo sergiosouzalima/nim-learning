@@ -1,5 +1,5 @@
-# functions_classic_return
-# 
+# functions_classic_return.nim
+#
 # functions - classic return
 
 proc positiveOrNegative(num: int): string =
