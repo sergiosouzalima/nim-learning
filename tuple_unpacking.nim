@@ -1,7 +1,9 @@
 ## tuple_unpacking.nim
-## ---------------------------------------------------------------
 ## Tuple unpacking.
+##
 ## A tuple’s fields can be assigned directly to multiple identifiers.
+## Created May, 28th 2022
+## Author Sergio
 
 import std/strutils
 
