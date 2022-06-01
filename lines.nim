@@ -2,8 +2,10 @@
 ## Text file lines counter
 ## Author: Sergio Lima
 ## Created at: May, 28 2022
-## How to compile:
+## How to compile for Linux:
 ##   nim c --verbosity:0 --hints:off -d:danger -d:lto --opt:speed lines.nim
+## How to compile for Windows:
+##   nim c --verbosity:0 --hints:off -d:danger -d:lto --opt:speed -d:mingw --cpu:amd64 lines.nim
 ## How to run
 ##   ./lines text_file.txt
 
