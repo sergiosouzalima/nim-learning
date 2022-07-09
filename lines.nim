@@ -1,7 +1,7 @@
 ## lines.nim
 ## Text file lines counter
 ## Author: Sergio Lima
-## Created at: May, 28 2022
+## Created: May, 28 2022
 ## How to compile for Linux:
 ##   nim c --verbosity:0 --hints:off -d:danger -d:lto --opt:speed lines.nim
 ## How to compile for Windows:
