@@ -1,15 +1,10 @@
-## Program name........: wttrin_weather_lib.nim
+## Program name........: wttrin_weather_lib3.nim
 ## Program description.: Testing Nim library that fetches weather from wttr.in
 ## Author..............: Sergio Lima
 ## Created on..........: Jul, 9 2022
-## Install lib
-##   $ nimble install wttrin -y
 ## How to compile
-##   $ nim c -d:ssl wttrin_weather_lib.nim
-## How to run
-##   $ ./wttrin_weather_lib
+##   $ nim js tuple_js.nim
 
-import wttrin
 import std/strformat
 
 const citiesTuple = (
@@ -19,7 +14,7 @@ const citiesTuple = (
   manaus: "Manaus-AM")
 
 proc getWeather(city: string): (string, string, string) =
-  return ($getTemp(city), $getUnit(city), getCondition(city))
+  return ("15", "C", "☀️")
 
 for city, cityName in citiesTuple.fieldPairs:
   let (temp, unit, cond) = getWeather(city)
