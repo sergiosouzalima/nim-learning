@@ -22,12 +22,14 @@ proc main() =
   while xmlParser.kind != xmlEof:
     case xmlParser.kind
     of xmlAttribute:
-      echo "xmlAttribute.attrkey.......: " & xmlParser.attrkey
-      echo "xmlAttribute.attrValue.....: " & xmlParser.attrValue
+      echo "xmlAttribute.attrkey...........: " & xmlParser.attrkey
+      echo "xmlAttribute.attrValue.........: " & xmlParser.attrValue
     of xmlElementStart:
-      echo "xmlElementStart.elementName: " & xmlParser.elementName
+      echo "xmlElementStart.elementName....: " & xmlParser.elementName
+    of xmlElementEnd:
+      echo "xmlElementEnd.elementName......: " & xmlParser.elementName
     of xmlCharData:
-      echo "xmlCharData.charData.......: " & xmlParser.charData
+      echo "xmlCharData.charData...........: " & xmlParser.charData
     else: discard
     xmlParser.next()
 
