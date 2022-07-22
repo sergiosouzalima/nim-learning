@@ -1,1 +1,37 @@
-001;filename;/home/sergio/workspace/github/sergiosouzalima/apachehop-dw-salary-payments/wrkf01_pipe01_stage.hpl
+;;;
+workflow; version="1.0" encoding="UTF-8";workflow;workflow
+name; version="1.0" encoding="UTF-8";name;name
+wrkf01_salary_payments; version="1.0" encoding="UTF-8";wrkf01_salary_payments;wrkf01_salary_payments
+name; version="1.0" encoding="UTF-8";name;name
+name_sync_with_filename; version="1.0" encoding="UTF-8";name_sync_with_filename;name_sync_with_filename
+Y; version="1.0" encoding="UTF-8";Y;Y
+name_sync_with_filename; version="1.0" encoding="UTF-8";name_sync_with_filename;name_sync_with_filename
+description; version="1.0" encoding="UTF-8";description;description
+description; version="1.0" encoding="UTF-8";description;description
+extended_description; version="1.0" encoding="UTF-8";extended_description;extended_description
+extended_description; version="1.0" encoding="UTF-8";extended_description;extended_description
+workflow_version; version="1.0" encoding="UTF-8";workflow_version;workflow_version
+workflow_version; version="1.0" encoding="UTF-8";workflow_version;workflow_version
+created_user; version="1.0" encoding="UTF-8";created_user;created_user
+-; version="1.0" encoding="UTF-8";-;-
+created_user; version="1.0" encoding="UTF-8";created_user;created_user
+modified_date; version="1.0" encoding="UTF-8";modified_date;modified_date
+2022/07/01 16:07:47.060; version="1.0" encoding="UTF-8";2022/07/01 16:07:47.060;2022/07/01 16:07:47.060
+modified_date; version="1.0" encoding="UTF-8";modified_date;modified_date
+parameters; version="1.0" encoding="UTF-8";parameters;parameters
+parameters; version="1.0" encoding="UTF-8";parameters;parameters
+actions; version="1.0" encoding="UTF-8";actions;actions
+action; version="1.0" encoding="UTF-8";action;action
+name; version="1.0" encoding="UTF-8";name;name
+id;001;id;id
+id;001;id;id
+Start;001;Start;Start
+name;001;name;name
+description;001;description;description
+description;001;description;description
+type;001;type;type
+SPECIAL;001;SPECIAL;SPECIAL
+type;001;type;type
+action;001;action;action
+actions;001;actions;actions
+workflow;001;workflow;workflow
